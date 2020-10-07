@@ -1,0 +1,22 @@
+{
+  "name": "test2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "electron": "electron .",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron ."
+  },
+  "homepage": "./",
+  "main": "electron-starter.js",
+  "dependencies": {
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
+}
